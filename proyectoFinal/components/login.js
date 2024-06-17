@@ -99,8 +99,7 @@ export default class Login extends LitElement{
         this.requestUpdate();
     }
     handleRegresarClick() {
-      // Manejar el clic en el botón de regresar
-      this.currentPage = 'move-list'; // Regresamos a move-list
+      this.currentPage = 'move-list'; 
       this.requestUpdate();
   }
 
